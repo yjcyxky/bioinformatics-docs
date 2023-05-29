@@ -2,8 +2,8 @@
 site_name: Docs for Bioinformatics
 site_description: 'High Performance Cluster, Bioinformatics, and MultiOmics Data Analysis'
 site_author: 'Jingcheng Yang, Yechao Huang'
-# announce: 'BioMiner Team'
-# announce_text: 'a development version has been released on <a href="https://dev.chinese-quartet.org" target="_blank">https://dev.chinese-quartet.org</a>'
+announce: 'BioMiner Team'
+announce_text: 'High Performance Cluster, Bioinformatics, and MultiOmics Data Analysis'
 docs_dir: docs/
 repo_name: 'bioinformatics-docs'
 repo_url: 'https://github.com/yjcyxky/bioinformatics-docs'

@@ -7,7 +7,7 @@ announce_text: 'High Performance Cluster, Bioinformatics, and MultiOmics Data An
 docs_dir: docs/
 repo_name: 'bioinformatics-docs'
 repo_url: 'https://github.com/yjcyxky/bioinformatics-docs'
-edit_uri: bioinformatics.3steps.cn/edit/master/docs/
+edit_uri: https://github.com/yjcyxky/bioinformatics-docs/edit/main/docs/
 markdown_extensions:
   - meta
   - abbr

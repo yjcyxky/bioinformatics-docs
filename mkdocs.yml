@@ -1,0 +1,86 @@
+# Please access https://squidfunk.github.io/mkdocs-material for more details.
+site_name: Docs for Bioinformatics
+site_description: 'High Performance Cluster, Bioinformatics, and MultiOmics Data Analysis'
+site_author: 'Jingcheng Yang, Yechao Huang'
+# announce: 'BioMiner Team'
+# announce_text: 'a development version has been released on <a href="https://dev.chinese-quartet.org" target="_blank">https://dev.chinese-quartet.org</a>'
+docs_dir: docs/
+repo_name: 'bioinformatics-docs'
+repo_url: 'https://github.com/yjcyxky/bioinformatics-docs'
+edit_uri: bioinformatics.3steps.cn/edit/master/docs/
+markdown_extensions:
+  - meta
+  - abbr
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - footnotes
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+extra_css:
+  - assets/stylesheets/extra.css
+plugins:
+  - search
+  - git-revision-date
+extra:
+  homepage: https://bioinformatics.3steps.cn
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yjcyxky/bioinformatics-docs
+      name: Docs for Bioinformatics
+  generator: false
+copyright: Copyright &copy; 2016 - 2023 BioMiner Team
+theme:
+  custom_dir: docs/assets/overrides
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - search.share
+  logo: assets/images/logo.png
+  icon:
+      repo: fontawesome/brands/github
+  favicon: assets/images/logo.png
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: blue
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to light mode
+  name: 'material'
+
+# Table of contents
+nav:
+  - Home: index.md
+  - 'Getting Started':
+    - Overview: getting_started/introduction.md
+  - 'High Performance Cluster':
+    - Overview: hpc/introduction.md
+    - 'User Guide': hpc/user_guide.md
+    - 'Admin Guide': hpc/admin_guide.md
+    - 'FAQs': hpc/faqs.md
+  - 'Bioinformatics':
+    - Overview: bioinformatics/introduction.md
+    - 'User Guide': bioinformatics/user_guide.md
+    - 'FAQs': bioinformatics/faqs.md
+  - Tools: 
+    - 'Aget': tools/aget.md
+    - 'BioMiner Aget': tools/biominer-aget.md
+    - 'BioMiner Indexd': tools/biominer-indexd.md
+  - About:
+    - News: about/news.md
+    - FAQs: about/faqs.md
